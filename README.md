@@ -18,6 +18,7 @@ XAI 설명 가능한 인공지능, 인공지능을 해부하다 / 위키북스
 - 상위25%=upper shadow, 하위25%=lower shadow
 ### confusion matrix
 |        |예측 음성|예측 양성|
+|--------|--------|---------|
 |실제 양성|   TP   |   FN   |
 |실제 음성|   FP   |   TN   |
 - 정확도 (Accuracy)
