@@ -7,7 +7,7 @@ XAI는 기존 인공지능 위에 설명성을 부여하는 기법
 2. 머신러닝 모델에 HCI(Human Computer Interaction) 기능 추가
 3. XAI를 통한 현재 상황이 개선
 ## 02 실습환경 구축
-<pre><code>pip install -r requirements.txt<\code><\pre>
+<pre><code>{pip install -r requirements.txt}<\code><\pre>
 ## 03 XAI 개발 준비
 ## 04 의사 결정 트리
 ## 05 대리 분석
