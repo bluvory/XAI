@@ -21,9 +21,10 @@ XAI 설명 가능한 인공지능, 인공지능을 해부하다 / 위키북스
 |--------|--------|---------|
 |실제 양성|   TP   |   FN   |
 |실제 음성|   FP   |   TN   |
-- 정확도 (Accuracy)
-- 정밀성 (Precision)
-- 민감도 (Sensitivity, Recall)
-- 특이성 (Specificity)
-- 낙제율 (Fallout)
-- F1-점수 (F1-score)
+- 정확도 (Accuracy) = (TP+TN)/ALL
+- 에러율 (Error) = (FN+FP)/ALL
+- 정밀성 (Precision) = TP/(TP+FP)
+- 민감도 (Sensitivity, Recall) = TP/((TP+FN)
+- 특이성 (Specificity) = TN/(TN+FP)
+- 낙제율 (Fallout) = $TP/(FP+TN)$
+- F1-점수 (F1-score) = 2×(1/(1/recall+1/precision))
