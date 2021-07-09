@@ -11,7 +11,7 @@ XAI는 기존 인공지능 위에 설명성을 부여하는 기법
 
 ## 02 실습환경 구축
 <pre><code>pip install -r requirements.txt</code></pre>
-
+https://www.tensorflow.org/tutorials/quickstart/beginner?hl=ko
 
 
 ## 03 XAI 개발 준비
@@ -119,10 +119,14 @@ Visualizing Image Filters, 이미지 필터 시각화
 
 :학습된 신경망 모델에 이미지가 입력됐을 때 각 은닉 계층마다 인풋 이미지에 어떻게 반응하는지 시각적으로 확인하는 기법
 
-이때 필터란 은닉층에 복수로 존재하는 활성 함수 다발 $\$ 이미지가 신경망 입력층을 통과하며 각 은닉층에 들어오면 필터는 
+이미지가 신경망 입력층을 통과 ➔ 각 은닉층에 들어옴 ➔ 필터(은닉층에 복수로 존재하는 활성 함수 다발)가 입력 이미지를 통과시키며 활성화 함수 연산 ➔ 계산 결과를 앞으로 전달
+
+
 
 
 ## 07 LPR(Layer-wise Relevance Propagation)
+
+
 
 
 ## 08 실전분석1: 의사 결정 트리와 XAI
