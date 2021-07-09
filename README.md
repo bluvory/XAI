@@ -125,7 +125,9 @@ Visualizing Image Filters, 이미지 필터 시각화
 
 
 ## 07 LPR(Layer-wise Relevance Propagation)
-
+- Layer-wise Relevance Propagation, LPR 계층별 타당성 전파: 딥러닝 모델의 결과를 역추적해서 입력 이미지에 히트맵을 출력
+- 타당성 전파(Relevance Propagation, RP): 특정 결과가 나오게 된 원인 분해하고 그 비중을 분배
+- 분해(Decomposition): RP로 얻어낸 원인을 가중치로 환원하고 해부
 
 
 
